@@ -1,0 +1,12 @@
+{
+  "mcp_name": "UK Environmental Compliance MCP",
+  "jurisdiction": "GB",
+  "build_date": "2026-04-03",
+  "nvz_rules": 17,
+  "storage_requirements": 6,
+  "buffer_strip_rules": 8,
+  "abstraction_rules": 4,
+  "pollution_prevention": 8,
+  "eia_screening": 6,
+  "fts_entries": 49
+}

@@ -1,0 +1,99 @@
+schema_version: "1.0"
+mcp_name: "UK Environmental Compliance MCP"
+category: "domain_intelligence"
+
+sources:
+  - name: "DEFRA Farming Rules for Water (SI 2018/151)"
+    authority: "Department for Environment, Food and Rural Affairs"
+    official_url: "https://www.gov.uk/guidance/rules-for-farmers-and-land-managers-to-prevent-water-pollution"
+    api_url: null
+    retrieval_method: "MANUAL_EXTRACT"
+    format: "HTML"
+    authentication: "none"
+    update_frequency: "as amended"
+    license:
+      type: "Open Government Licence"
+      url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      summary: "Free to copy, publish, distribute, and adapt with attribution"
+    coverage:
+      scope: "Rules on nutrient management, manure and fertiliser application, soil management"
+      version: "SI 2018/151 as amended"
+      item_count: "~50 rule entries"
+    languages:
+      - "en"
+
+  - name: "NVZ Regulations (SI 2015/668)"
+    authority: "Department for Environment, Food and Rural Affairs"
+    official_url: "https://www.gov.uk/guidance/using-nitrogen-fertilisers-in-nitrate-vulnerable-zones"
+    api_url: null
+    retrieval_method: "MANUAL_EXTRACT"
+    format: "HTML"
+    authentication: "none"
+    update_frequency: "as amended (4-year NVZ review cycle)"
+    license:
+      type: "Open Government Licence"
+      url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      summary: "Free to copy, publish, distribute, and adapt with attribution"
+    coverage:
+      scope: "NVZ closed periods, nitrogen limits, storage requirements, record keeping"
+      version: "SI 2015/668 as amended"
+      item_count: "~20 rule entries"
+    languages:
+      - "en"
+
+  - name: "SSAFO Regulations (SI 2010/639)"
+    authority: "Environment Agency"
+    official_url: "https://www.gov.uk/guidance/storing-silage-slurry-and-agricultural-fuel-oil"
+    api_url: null
+    retrieval_method: "MANUAL_EXTRACT"
+    format: "HTML"
+    authentication: "none"
+    update_frequency: "as amended"
+    license:
+      type: "Open Government Licence"
+      url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      summary: "Free to copy, publish, distribute, and adapt with attribution"
+    coverage:
+      scope: "Storage standards for silage, slurry, and agricultural fuel oil"
+      version: "SI 2010/639"
+      item_count: "~10 storage entries"
+    languages:
+      - "en"
+
+  - name: "Environment Agency Pollution Prevention Guidance"
+    authority: "Environment Agency"
+    official_url: "https://www.gov.uk/guidance/pollution-prevention-for-businesses"
+    api_url: null
+    retrieval_method: "MANUAL_EXTRACT"
+    format: "HTML"
+    authentication: "none"
+    update_frequency: "as amended"
+    license:
+      type: "Open Government Licence"
+      url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      summary: "Free to copy, publish, distribute, and adapt with attribution"
+    coverage:
+      scope: "Pollution prevention measures for farming activities"
+      version: "current"
+      item_count: "~10 activity entries"
+    languages:
+      - "en"
+
+  - name: "SFI (Sustainable Farming Incentive) Scheme"
+    authority: "Natural England / Rural Payments Agency"
+    official_url: "https://www.gov.uk/guidance/sfi-actions-for-water"
+    api_url: null
+    retrieval_method: "MANUAL_EXTRACT"
+    format: "HTML"
+    authentication: "none"
+    update_frequency: "annual (scheme updates)"
+    license:
+      type: "Open Government Licence"
+      url: "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      summary: "Free to copy, publish, distribute, and adapt with attribution"
+    coverage:
+      scope: "Buffer strip payment rates and eligibility criteria"
+      version: "SFI 2024"
+      item_count: "~5 action entries"
+    languages:
+      - "en"

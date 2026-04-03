@@ -1,0 +1,25 @@
+{
+  "name": "uk-environmental-compliance-mcp",
+  "display_name": "UK Environmental Compliance MCP",
+  "description": "UK environmental compliance for farming via MCP — NVZ rules, spreading windows, SSAFO storage, buffer strips, abstraction, pollution prevention, EIA screening",
+  "version": "0.1.0",
+  "jurisdiction": "GB",
+  "category": "agriculture",
+  "tools_count": 11,
+  "transport": ["stdio", "streamable-http"],
+  "endpoints": {
+    "npm": "@ansvar/uk-environmental-compliance-mcp",
+    "docker": "ghcr.io/ansvar-systems/uk-environmental-compliance-mcp:latest",
+    "http": "https://mcp.ansvar.eu/uk-environmental-compliance/mcp"
+  },
+  "data_sources": [
+    "DEFRA Farming Rules for Water (SI 2018/151)",
+    "NVZ Regulations (SI 2015/668)",
+    "SSAFO Regulations (SI 2010/639)",
+    "Environment Agency Guidance",
+    "Natural England SFI Scheme"
+  ],
+  "license": "Apache-2.0",
+  "data_license": "Open Government Licence v3",
+  "repository": "https://github.com/Ansvar-Systems/uk-environmental-compliance-mcp"
+}
